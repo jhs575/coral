@@ -1,0 +1,172 @@
+/* 
+#1 (Font Size)
+*/
+
+.font-s70{
+    font-size: 70px;
+    font-weight: 350;
+}
+.font-s60{
+    font-size: 60px;
+    font-weight: 600;
+}
+.font-s50{
+    font-size: 50px;
+    font-weight: 500;
+}
+.font-s20{
+    font-size: 30px;
+    font-weight: 450;
+}
+.font-s15{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.bs-648{
+    height: 648px !important;
+    width: 648px !important;
+    /* overflow: hidden; */
+}
+.bs-312{
+    height: 312px;
+    width: 312px;
+    overflow: block;
+}
+
+.mark-home{
+    position: relative;  
+}
+.mark{
+    position: absolute;
+    left: -330px;
+    top:283px;
+    font-size: 45px;
+    background-color: #f0f8ff00
+}
+.mark1{
+    margin: 0;
+    padding: 0;
+    transform: rotateZ(270deg);
+}
+.sale{
+    color: #ff6f61;
+}
+.bg-black{
+    background-color: black;
+    overflow: hidden;
+}
+.bg-ash{
+    background-color: #f4f4f4;
+}
+.vector{
+    position: relative;
+}
+.left-vector{
+    position: absolute;
+    left: 1px;
+    top: 75%;
+}
+.right-vector{
+    position: absolute;
+    right: 1px;
+    top: 45%;
+}
+.hg{
+    height: 776px;
+}
+.hero-bg{
+    position: relative;
+}
+.hero{
+    position: absolute;
+    top: -250px;
+    left: -200px;
+    height: 1341px;
+    width: 1764px;
+}
+.logo{
+    position: absolute;
+    height: auto;
+    width: 35%;
+    left: 55%;
+    top: 40%;
+
+}
+.logo-1{
+    position: absolute;
+    height: 309px !important;
+    left: 66%;
+    top: 20%;
+
+}
+.logo-11{
+    width: 632px;
+}
+.white{
+    color: white;
+}
+.black{
+    color: #000;
+}
+.cl-btn{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.cl-btn2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.border-none{
+    border-width: 0 0 3px 0;
+    border-color: black;
+    background-color: #f4f4f4;
+    width: 60%;
+    bottom: 3px #002fff;
+}
+.btn-submit{
+    border-width: 0 0 3px 0;
+    border-color: black;
+    padding:0 20px;
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+
+
+/* Import */
+
+.footer{
+    display: grid;
+    /* margin: 0 auto; */
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-template-columns: 1.5fr 1fr 1fr 0.7fr;
+    column-gap: 1rem;
+    padding: 1px;
+    gap: 1rem;
+    margin-bottom: 70px;
+}
+.footer .service {
+    display: grid;
+}
+.service a{
+    display: grid;
+    text-decoration: none;
+    color: #000;
+}
+.footer-title{
+    font-weight: 700;
+    margin-bottom: 10px;
+    gap: 5rem;
+    display: grid;
+}
+.end{
+    margin-bottom: 15px;
+    background-color: #f4f4f4;
+}
